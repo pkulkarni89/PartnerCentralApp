@@ -22,7 +22,7 @@ Showcase to our Members the partners benefit offerings, link and earn throughBon
    - Open Git Bash.
    - Enter the following command to clone the repository:
      ```sh
-     git clone https://github.com/krishnasoft002/PartnerCentralApp.git
+     git clone https://github.com/pkulkarni89/PartnerCentralApp.git
      ```
 
 ### Setting up the Application in Windows:
