@@ -1,7 +1,7 @@
 # PartnerCentralApp
 
 
-**Contribution**
+**Contribution:**
 
 **Our opportunity:**
 To address a distributed partner digital experience and create a "Partner Central" where members can swiftly and easily learn about our partner offerings how it benefits them, link and start earning!
