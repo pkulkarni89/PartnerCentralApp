@@ -14,7 +14,7 @@ Install Git Bash for Windows
 Clone the Repository
 
 Open Git Bash.
-Enter the following command to clone the repository: sh git clone https://github.com/krishnasoft002/PartnerCentralApp.git
+Enter the following command to clone the repository: sh git clone https://github.com/pkulkarni89/PartnerCentralApp.git
 Setting up the Application in Windows:
 Front End Setup:
 Navigate to the front end folder
