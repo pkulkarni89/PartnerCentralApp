@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<!-- saved from url=(0186)https://static.sojern.com/marriott/mhotels.html?p=%2Fdefault&hprid=&hpr=&hb=&hc1=&hn1=&hs1=&ffl=&hl=&t=%22%22&hr=&hd1=&hd2=&hconfno=&hp=&hcu=undefined&hrp=&hdc=&rew=&l=en_US&vid=hot&cid= -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+  <title>Marriott Hotels</title>
+<script type="text/javascript" async="" src="./340747"></script><script type="text/javascript" async="" src="./213"></script><script type="text/javascript" async="">var i = document.createElement('img');        i.setAttribute('alt', '');        i.setAttribute('height', '1');        i.setAttribute('width', '1');        i.setAttribute('style', 'display: none;');        i.setAttribute('src', 'https://ad.doubleclick.net/ddm/activity/src=4810757;type=sales;cat=marri0g7;qty=1;cost=0;u1=MGP_201904%7C%2Fdefault%7Chttps%3A%2F%2Fwww.marriott.com%2F;u16=;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;npa=;gdpr=${GDPR};gdpr_consent=${GDPR_CONSENT_755};ord=[OrderID]');        document.body.appendChild(i);    </script><script type="text/javascript" async="">var i = document.createElement('img');i.setAttribute('alt', '');i.setAttribute('height', '1');i.setAttribute('width', '1');i.setAttribute('style', 'display: none;');i.setAttribute('src', 'https://cm.g.doubleclick.net/pixel?google_hm=MjFjM2U0ZDYtYTAwOC1mZjk0LTliMzctYjE5MWI5NjQyMTZj&google_nid=sojern_adh');document.body.appendChild(i);</script><script type="text/javascript" async="">var i = document.createElement('img');        i.setAttribute('alt', '');        i.setAttribute('height', '1');        i.setAttribute('width', '1');        i.setAttribute('style', 'display: none;');        i.setAttribute('src', 'https://ad.doubleclick.net/ddm/activity/src=4810757;type=sales;cat=marri0hs;qty=1;cost=0;u1=MGP_201904%7C%2Fdefault%7Chttps%3A%2F%2Fwww.marriott.com%2F;u16=;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;npa=;gdpr=${GDPR};gdpr_consent=${GDPR_CONSENT_755};ord=[OrderID]');        document.body.appendChild(i);    </script><script type="text/javascript" async="">var i = document.createElement('img');i.setAttribute('alt', '');i.setAttribute('height', '1');i.setAttribute('width', '1');i.setAttribute('style', 'display: none;');i.setAttribute('src', 'https://cm.g.doubleclick.net/pixel?google_hm=MjFjM2U0ZDYtYTAwOC1mZjk0LTliMzctYjE5MWI5NjQyMTZj&google_nid=sojern_adh');document.body.appendChild(i);</script></head>
+<body>
+<!-- version 20221215 -->
+
+<script>
+  (function () {
+    var sjrn = {};
+    sjrn.cid = "";
+    var sjrnId = "";
+    var sjrnStr = "";
+    var sjrnParams = "";
+    var paramsArr = [];
+    var refer = document.referrer;
+    var dmn = refer.split("/")[2];
+    var srch = refer.indexOf("?") > -1 ? refer.split(/\?/)[1] : "";
+    var srchParams = srch.split(/\&/);
+    var prom = "";
+
+    var mea_mar = ",DZ,BH,DJ,EG,ET,GH,GN,JO,KE,KW,LB,MW,ML,MU,MA,NA,NG,OM,PK,QA,RW,SA,SC,ZA,TN,UG,AE,TZ,ZM,";
+    var mms_fire = false;
+    var cont_al = false;
+    var cont_mz = false;
+    var mhpt_fire = false;
+    var mhpt_props = ",AMSNT,ATHAM,BUDHU,CGNBO,GDNMC,ISTDT,LHRHR,LONCH,LONPL,LONRP,LONWH,LYSMC,MADAD,ROMDT,RTMMC,RTMMN,SKPMC,VOZMC,ZPZDE,ZRHDT,";
+    var miles_fire = false;
+    var miles_props = ",PHLDE,";
+    var miles_pid = "1144";
+    var glo_fire = false;
+
+    /* Global Conv */
+    sjrn.cid = "MGP_201910|REFER:" + refer;
+
+    /* DEBUG */
+
+    var sjrnStr = window.location.search.slice(1);
+    var hParams = sjrnStr.split(/\&/);
+
+    for (var tag in hParams) {
+      b = hParams[tag].split("=")[1];
+      sjrn[hParams[tag].split("=")[0]] = decodeURIComponent(b);
+    }
+
+    sjrn.hpid = typeof sjrn.hprid !== "undefined" ? sjrn.hprid : "";
+    sjrn.hd1 = typeof sjrn.hd1 !== "undefined" ? sjrn.hd1 : "";
+    sjrn.hd2 = typeof sjrn.hd2 !== "undefined" ? sjrn.hd2 : "";
+    sjrn.hc1 = typeof sjrn.hc1 !== "undefined" ? sjrn.hc1 : "";
+    sjrn.hconfno = typeof sjrn.hconfno !== "undefined" ? sjrn.hconfno : "";
+    sjrn.hp = typeof sjrn.hp !== "undefined" ? sjrn.hp : "";
+    sjrn.p = typeof sjrn.p !== "undefined" ? sjrn.p : "";
+    sjrn.pt = "";
+
+    if (sjrn.hd1 > "") {
+      tmpIn = sjrn.hd1.split("/");
+      sjrn.hd1 = tmpIn[2] + "-" + tmpIn[0] + "-" + tmpIn[1];
+    }
+
+    if (sjrn.hd2 > "") {
+      tmpOut = sjrn.hd2.split("/");
+      sjrn.hd2 = tmpOut[2] + "-" + tmpOut[0] + "-" + tmpOut[1];
+    }
+
+    if (dmn == "tops.sojern.com") { /* for debugging */
+      dmn = "www.marriott.com";
+    }
+
+    function pixelAll() {
+      if (sjrn.p == "/reservation/confirmation") {
+        sjrn.pt = "CONVERSION";
+      } else if (sjrn.p == "/reservation/rateListMenu" || sjrn.p == "/search/findHotels") {
+        sjrn.pt = "SEARCH";
+        if (mea_mar.search("," + sjrn.hn1 + ",") > -1 && sjrn.p == "/search/findHotels") {
+          mms_fire = true;
+        }
+      } else if (sjrn.p == "/reservation/guestInfo") {
+        sjrn.pt = "SHOPPING_CART";
+      } else if (sjrn.p == "/reservation/signInOverlay") {
+        sjrn.pt = "SHOPPING_CART";
+      } else if (sjrn.p == "/hotels/travel/" || sjrn.p.search("/overview/") > -1) {
+        sjrn.pt = "HOME_PAGE";
+      } else if (sjrn.p == "/hotels/hotel-rooms/" || sjrn.p == "/hotels/hotel-deals/" || sjrn.p.search("/fitness-spa-services/") > -1 || sjrn.p.search("/restaurant/") > -1 || sjrn.p.search("/fitness-center/") > -1 || sjrn.p.search("/rooms/") > -1 || sjrn.p.search("/dining/") > -1) {
+        sjrn.pt = "PRODUCT";
+        sjrn.pname = sjrn.p;
+      } else {
+        sjrn.pt = "TRACKING";
+      }
+    }
+
+    function ritzPixelAll() {
+      if (refer.search(/\/hotels(\/[a-z]+)(\/[a-z]+)?$/) > -1) {
+        sjrn.pt = "HOME_PAGE";
+      } else if (refer.search(/(room)|(offer)/) > -1) {
+        sjrn.pt = "PRODUCT";
+      } else if (sjrn.p == "/reservation/rateListMenu" || sjrn.p == "/search/findHotels") {
+        sjrn.pt = "SEARCH";
+      } else if (sjrn.p == "/reservation/guestInfo") {
+        sjrn.pt = "SHOPPING_CART";
+      } else if (sjrn.p == "/reservation/signInOverlay") {
+        sjrn.pt = "SHOPPING_CART";
+      } else if (sjrn.p == "/reservation/confirmation") {
+        sjrn.pt = "CONVERSION";
+      } else {
+        sjrn.pt = "TRACKING";
+      }
+    }
+
+    function pixelCall() {
+      if (refer.search('ritzcarlton') >= 0 || sjrn.hb == "RC") {
+        ritzPixelAll();
+      } else {
+        pixelAll();
+      }
+
+      try {
+        if (sjrn.hpid[0].search(/[a-l]/i) === 0) {
+          cont_al = true;
+        } else if (sjrn.hpid[0].search(/[m-z]/i) === 0) {
+          cont_mz = true;
+        }
+      }
+      catch(e) {
+         cont_al = true;
+      }
+    }
+
+    try {
+      var ext = dmn.split(".");
+      ext = ext[ext.length - 1];
+      pixelCall();
+
+      if (sjrn.p == "" && srch.search("london-and-paris-city-breaks") > -1) {
+        sjrnId = "207659";
+      }
+
+      if (sjrn.p == "/hotels/travel/" && mhpt_props.search(sjrn.hpid) > -1) {
+        mhpt_fire = true;
+        sjrn.pt = "HOME_PAGE";
+      }
+
+      if (sjrn.p == "/hotels/hotel-deals/" && miles_props.search(sjrn.hpid) > -1) {
+        miles_fire = true;
+        sjrn.pt = "PRODUCT";
+      }
+
+      if (refer.search('grandelakes') >= 0) {
+        glo_fire = true;
+      }      
+
+      if (sjrn.p.match(/\/default\/?$/)) {
+        if (sjrn.l === "en_US") {
+          sjrnId = "340747"
+        } else if (sjrn.l === "ja_JP") {
+          sjrnId = "340748"
+        } else if (sjrn.l === "ko_KR") {
+          sjrnId = "340749"
+        } else if (sjrn.l === "in_ID") {
+          sjrnId = "340750"
+        } else if (sjrn.l === "th_TH") {
+          sjrnId = "340751"
+        } else if (sjrn.l === "vi_VN") {
+          sjrnId = "340753"
+        }
+      }
+
+      if (sjrn.p == "/loyalty/promotion" && (ext == "uk" || ext == "de" || ext == "fr" || ext == "ru" || (ext == "com" && dmn.search("espanol") > -1) || dmn == "www.marriott.com")) {
+
+        for (var tag in srchParams) {
+          if (srchParams[tag].split("=")[0] == "promotion") {
+            prom = srchParams[tag].split("=")[1];
+          }
+        }
+        if (prom == "DU19") {
+          sjrnId = "203526";
+        } else {
+          sjrn.cid = "MGP_201904|" + sjrn.p + "|" + refer;
+        }
+      } else if (sjrn.p == "/loyalty/join/joinPromotion" && (ext == "uk" || ext == "de" || ext == "fr" || ext == "ru" || (ext == "com" && dmn.search("espanol") > -1))) {
+        sjrnId = "202218";
+      } else if (sjrn.p == "/loyalty/join/joinConfirmationPromotion" && (ext == "uk" || ext == "de" || ext == "fr" || ext == "ru" || (ext == "com" && dmn.search("espanol") > -1))) {
+        sjrnId = "201541";
+      } else if (sjrn.p == "/specials/mesOffer" && srch.indexOf("1339874") > -1) {
+        sjrnId = "212227";
+        sjrn.pt = "PRODUCT";
+      } else if (sjrn.p.search("/en/destinations") > -1) {
+        sjrnId = "212232";
+        sjrn.pn = sjrn.p.split("/")[3];
+      } else {
+        sjrn.cid = "MGP_201904|" + sjrn.p + "|" + refer;
+      }
+
+    } catch (er) {
+      sjrnId = "1144";
+      sjrn.cid = "MGP_201904|" + sjrn.p + "|" + refer + "|ERR:" + er.message;
+      console.log("soj:" + er.message);
+    }
+
+    if (sjrn.pt == "HOME_PAGE") {
+      sjrn.et = "hp";
+    } else if (sjrn.pt == "CONVERSION") {
+      sjrn.et = "hc";
+    } else if (sjrn.pt == "SEARCH" || mms_fire == true) {
+      sjrn.et = "hs";
+    } else if (sjrn.pt == "SHOPPING_CART") {
+      sjrn.et = "hcart";
+    } else if (sjrn.pt == "PRODUCT") {
+      sjrn.et = "hpr";
+    }
+
+    for (var tag in sjrn) {
+      if (sjrn[tag] > "") {
+        sjrnParams += tag + "=" + encodeURIComponent(sjrn[tag]) + "&";
+      }
+    }
+
+    if (sjrnId > "") {
+      var pl = document.createElement("script");
+      pl.type = "text/javascript";
+      pl.async = true;
+      pl.src = "https://beacon.sojern.com/pixel/p/" + sjrnId + "?" + sjrnParams;
+      (document.getElementsByTagName("head")[0] || document.getElementsByTagName("body")[0]).appendChild(pl);
+    }
+
+    if (mms_fire == true) {
+      var mms = document.createElement("script");
+      mms.type = "text/javascript";
+      mms.async = true;
+      mms.src = "https://beacon.sojern.com/pixel/p/140400?" + sjrnParams;
+      (document.getElementsByTagName("head")[0] || document.getElementsByTagName("body")[0]).appendChild(mms);
+    }
+
+    if (mhpt_fire == true) {
+      var mhpt = document.createElement("script");
+      mhpt.type = "text/javascript";
+      mhpt.async = true;
+      mhpt.src = "https://beacon.sojern.com/pixel/p/216928?" + sjrnParams;
+      (document.getElementsByTagName("head")[0] || document.getElementsByTagName("body")[0]).appendChild(mhpt);
+    }
+
+    if (miles_fire == true) {
+      if (sjrn.hpid == "PHLDE") { miles_pid = "320349"; }
+      var miles = document.createElement("script");
+      miles.type = "text/javascript";
+      miles.async = true;
+      miles.src = "https://beacon.sojern.com/pixel/p/" + miles_pid + "?" + sjrnParams;
+      (document.getElementsByTagName("head")[0] || document.getElementsByTagName("body")[0]).appendChild(miles);
+    }
+
+    if (cont_al == true) {
+      var mm = document.createElement("script");
+      mm.type = "text/javascript";
+      mm.async = true;
+      mm.src = "https://beacon.sojern.com/pixel/cp/213?f_v=cp_v3_js&p_v=4&" + sjrnParams;
+      (document.getElementsByTagName("head")[0] || document.getElementsByTagName("body")[0]).appendChild(mm);
+    }
+
+    if (cont_mz == true) {
+      var mm = document.createElement("script");
+      mm.type = "text/javascript";
+      mm.async = true;
+      mm.src = "https://beacon.sojern.com/pixel/cp/214?f_v=cp_v3_js&p_v=4&" + sjrnParams;
+      (document.getElementsByTagName("head")[0] || document.getElementsByTagName("body")[0]).appendChild(mm);
+    }
+
+    if (glo_fire == true) {
+      var gloID = "349654";
+      if (refer.length > 28) { gloID = "349655"; }
+      var glo = document.createElement("script");
+      glo.type = "text/javascript";
+      glo.async = true;
+      glo.src = "https://beacon.sojern.com/pixel/p/" + gloID + "?" + sjrnParams;
+      (document.getElementsByTagName("head")[0] || document.getElementsByTagName("body")[0]).appendChild(glo);
+    }
+
+  })();
+</script>
+
+
+<img alt="" height="1" width="1" style="display: none;" src="./src=4810757"><img alt="" height="1" width="1" style="display: none;" src="./pixel"><img alt="" height="1" width="1" style="display: none;" src="./src=4810757(1)"><img width="1" height="1" src="./px" style="display: none;"><img width="1" height="1" src="./seg" style="display: none;"><img alt="" height="1" width="1" style="display: none;" src="./pixel"></body></html>
