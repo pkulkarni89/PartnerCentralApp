@@ -11,6 +11,10 @@ Showcase to our Members the partners benefit offerings, link and earn throughBon
 
 **Expected Outcomes:**
 •Increased member satisfaction and loyalty.
+•Streamlined navigation of partner offerings.
+•Clear communication of benefits.
+•Automated processes for effortless account linking.
+•Enhanced visibility into accrued partner awards.
 
 ## Setup
 
@@ -27,6 +31,16 @@ Showcase to our Members the partners benefit offerings, link and earn throughBon
 
 ### Setting up the Application in Windows:
  
+####  Back End Setup
+   
+    Navigate to the back end folder
+   
+   cd /backend
+   
+   npm install express cors body-parser
+   
+   node server.js
+   
 #### Front End Setup:
  
    Navigate to the front end folder
@@ -39,21 +53,19 @@ Showcase to our Members the partners benefit offerings, link and earn throughBon
    
    npm start
 
- ####  Back End Setup
-   
-    Navigate to the back end folder
-   
-   cd /backend
-   
-   npm install express cors body-parser
-   
-   node server.js
-
 Back end Application runs on port 5000  and Front end Application runs on port 3000 locally by default
 
+To test the application please use below test credentials:
+
+username: alex
+
+password: mypassword
 
 
-•Streamlined navigation of partner offerings.
-•Clear communication of benefits.
-•Automated processes for effortless account linking.
-•Enhanced visibility into accrued partner awards.
+Steps to run the application functionality:
+
+1. click sign in and enter the above provided credentials
+
+2. click the orange color "+" icon  button present on the chase partner tile, to proceed linking
+
+3. on successful linking , the application will update the accured award section with chase linking benefits
