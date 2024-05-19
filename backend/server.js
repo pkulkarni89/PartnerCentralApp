@@ -89,7 +89,7 @@ const users = {
     { name: 'BetMGM', status: 'Link-Now', benefits: 'Transfer your BetMGM Rewards Points to Marriott Bonvoy points at a 1:1 ratio', AccruedAwards:'' },
     { name: 'American Express', status: 'Link-Now', benefits: '6X points per $1 spent at participating Marriott Bonvoy hotels. 4X points per $1 at restaurants worldwide and at U.S. supermarkets. 2X points per $1 spent on all other eligible purchases. An Annual Free Night Award each year after your anniversary', AccruedAwards: '' },
   ]},
-  will: { username: 'will', password: 'will', partners: [
+  Will: { username: 'Will', password: 'Will', partners: [
     { name: 'Uber', status: 'Link-Now', benefits: '6X points for every $1 spent Uber Eats delivered to Marriott hotels, 3X points for every $1 spent on Uber rides, 2X points for every $1 spent on Uber eats', AccruedAwards: '' },
     { name: 'Emirates', status: 'Linked', benefits: 'Flights: Earn 3 Marriott Bonvoy points for every USD 1 spent when you fly with Emirates, on top of Skywards Miles. Hotel stays: Earn 1 Skywards Mile for every USD 1 spent on stays at hotels participating in Marriott Bonvoy, on top of Marriott Bonvoy points. Points Conversion: 3 Marriott Bonvoy points = 1 Skywards Mile. Enjoy 5,000 bonus Skywards Miles for every 60,000 Marriott Bonvoy points converted', AccruedAwards: '5,000 points and 3,000 miles' },
     { name: 'Chase', status: 'Link-Now', benefits: 'Automatic Silver Elite Status. Receive 15 Elite Night Credits per calendar year. Earn Points: 3X points for every $1 spent at Marriott hotels. 2X points for every $1 spent on all other purchases. Annual Free Night Award: Free Night Award every year after your account anniversary. Complimentary Premium Wi-Fi', AccruedAwards: '' },
